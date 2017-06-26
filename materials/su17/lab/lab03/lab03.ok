@@ -1,6 +1,6 @@
 {
   "name": "Function Calls",
-  "endpoint": "cal/data8/sp17/lab03",
+  "endpoint": "cal/data8r/su17/lab03",
   "src": [
     "lab03.ipynb"
   ],

@@ -1,6 +1,6 @@
 {
   "name": "Lab 2: Intro to Python",
-  "endpoint": "cal/data8/sp17/lab02",
+  "endpoint": "cal/data8r/su17/lab02",
   "src": [
     "lab02.ipynb"
   ],

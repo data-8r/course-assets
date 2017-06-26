@@ -1,6 +1,6 @@
 {
   "name": "Data Science with Python",
-  "endpoint": "cal/data8/sp17/lab01",
+  "endpoint": "cal/data8r/su17/lab01",
   "src": [
     "lab01.ipynb"
   ],
