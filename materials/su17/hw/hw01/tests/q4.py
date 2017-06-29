@@ -1,4 +1,3 @@
-
 test = {
   'name': 'Question 4_',
   'points': 1,
@@ -14,7 +13,7 @@ test = {
           """,
           'hidden': False,
           'locked': False
-        },
+        }
       ],
       'scored': True,
       'setup': '',
