@@ -1,5 +1,5 @@
 {
-  "name": "Lab 2: Data Types",
+  "name": "Lab 5: Data Types",
   "endpoint": "cal/data8r/su17/lab04",
   "src": [
     "lab04.ipynb"
