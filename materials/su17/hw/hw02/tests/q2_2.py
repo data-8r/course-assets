@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> 1 <= universities_q2 <= 3
+          >>> 1 <= universities_q2 <= 4
           True
           """,
           'hidden': False,
