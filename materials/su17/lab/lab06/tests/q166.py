@@ -6,9 +6,8 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> round(appearances_per_female_character, 2) == 19.61
-          True
-          >>> round(appearances_per_male_character, 2) == 16.12
+          >>> import numpy as np
+          >>> np.allclose(appearances_per_character_by_gender, np.array([21.94444444, 19.60556781, 282.5, 16.11540541, 4.05157233]))
           True
           """,
           'hidden': False,
