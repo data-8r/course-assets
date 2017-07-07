@@ -3,6 +3,10 @@ import matplotlib.pyplot as plots
 from datascience import *
 import numpy as np
 
+def draw_bar_plot(categories_label, categories, values_label, values):
+    Table().with_column(categories_label, categories)\
+        .with_column(values_label, values).barh(categories_label)
+
 def draw_group_barh(title, data):
   """Draws a bar chart of the unique values in the given array.
   
