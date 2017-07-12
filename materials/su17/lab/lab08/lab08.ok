@@ -1,8 +1,8 @@
 {
-  "name": "Homework 2: Arrays and Bar Charts",
-  "endpoint": "cal/data8r/su17/hw02",
+  "name": "Intro to Histograms",
+  "endpoint": "cal/data8r/su17/lab08",
   "src": [
-    "hw02.ipynb"
+    "lab08.ipynb"
   ],
   "tests": {
       "tests/q*.py": "ok_test"

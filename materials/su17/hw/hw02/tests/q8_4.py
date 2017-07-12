@@ -8,7 +8,8 @@ test = {
           'code': r"""
           >>> # Create chord_pressures by adding together the pressure arrays
           >>> # for the 3 notes.
-          >>> all(chord_pressures == a_pressures + c_sharp_pressures + e_pressures)
+          >>> import numpy as np
+          >>> np.allclose(chord_pressures, a_pressures + c_sharp_pressures + e_pressures)
           True
           >>> # chord_sound should be the name given to the output of a
           >>> # call to the function Audio.  So you should have a line of code
