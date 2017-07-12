@@ -1,0 +1,15 @@
+{
+  "name": "Elementwise Operations on Arrays",
+  "endpoint": "cal/data8r/su17/lab06",
+  "src": [
+    "lab06.ipynb"
+  ],
+  "tests": {
+      "tests/q*.py": "ok_test"
+  },
+  "protocols": [
+      "file_contents",
+      "grading",
+      "backup"
+  ]
+}
