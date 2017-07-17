@@ -1,5 +1,5 @@
 {
-  "name": "Lab 10: More Table Methods and Scatter Plots",
+  "name": "Lab 9: More Table Methods and Scatter Plots",
   "endpoint": "cal/data8r/su17/lab09",
   "src": [
     "lab09.ipynb"
