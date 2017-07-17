@@ -1,19 +1,17 @@
 test = {
-  'name': 'Question',
+  'name': '',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> shortest_twin_height == 63
-          True
-          >>> tallest_twin_height == 71
-          True
+          >>> hsdegree_vs_hcrimes.num_columns
+          4
           """,
           'hidden': False,
           'locked': False
-        }
+        },
       ],
       'scored': True,
       'setup': '',
