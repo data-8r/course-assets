@@ -6,13 +6,8 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> top_5_causes
-          Cause of Death | Count
-          HTD            | 957108
-          CAN            | 822906
-          OTH            | 637764
-          STK            | 231897
-          CLD            | 194961
+          >>> correct_mispel("mispelings on misspellings")
+          'misspellings on misspellings'
           """,
           'hidden': False,
           'locked': False
