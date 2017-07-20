@@ -6,13 +6,17 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> top_5_causes
-          Cause of Death | Count
-          HTD            | 957108
-          CAN            | 822906
-          OTH            | 637764
-          STK            | 231897
-          CLD            | 194961
+          >>> # It looks like you didn't make a table, or you didn't name
+          >>> # it temperatures.
+          >>> from datascience import *
+          >>> type(temperatures) == tables.Table
+          True
+          >>> # It looks like you loaded the wrong table, or you changed.
+          >>> # the table in some way.
+          >>> temperatures.num_rows
+          4998
+          >>> temperatures.num_columns
+          6
           """,
           'hidden': False,
           'locked': False
