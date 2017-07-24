@@ -6,8 +6,8 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> avg_water_usage
-          100.7421031755934
+          >>> int(avg_water_usage)
+          100
           """
         }
       ],
