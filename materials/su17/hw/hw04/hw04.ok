@@ -1,0 +1,15 @@
+{
+  "name": "Homework 4: Tables and Functions",
+  "endpoint": "cal/data8r/su17/hw04",
+  "src": [
+    "hw04.ipynb"
+  ],
+  "tests": {
+      "tests/q*.py": "ok_test"
+  },
+  "protocols": [
+      "file_contents",
+      "grading",
+      "backup"
+  ]
+}
