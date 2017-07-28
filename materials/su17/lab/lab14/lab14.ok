@@ -1,0 +1,15 @@
+{
+  "name": "Sampling the NBA",
+  "endpoint": "cal/data8r/su17/lab14",
+  "src": [
+    "lab14.ipynb"
+  ],
+  "tests": {
+      "tests/q*.py": "ok_test"
+  },
+  "protocols": [
+      "file_contents",
+      "grading",
+      "backup"
+  ]
+}
