@@ -1,0 +1,15 @@
+{
+  "name": "Evaluating an RCT",
+  "endpoint": "cal/data8r/su17/lab15",
+  "src": [
+    "lab15.ipynb"
+  ],
+  "tests": {
+      "tests/q*.py": "ok_test"
+  },
+  "protocols": [
+      "file_contents",
+      "grading",
+      "backup"
+  ]
+}
