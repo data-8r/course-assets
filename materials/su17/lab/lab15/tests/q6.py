@@ -6,9 +6,8 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> test_statistic_function = lambda tbl: np.mean(tbl.column("Interested in raising animals"))
-          >>> abs(sample_once(649) - 0.91) < 0.02
-          True
+          >>> sample_once
+          <function __main__.sample_once>
           """,
           'hidden': False,
           'locked': False
